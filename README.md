@@ -147,11 +147,11 @@ The chronic deficit/surplus threshold of ±5 bikes/day is calibrated to an estim
 
 ## Limitations
 
-- Single month (September 2025) — seasonal variation not captured
-- No dock capacity or opening inventory data — net flow is relative, not absolute
+- Single month September 2025
+- No dock capacity or opening inventory data the net flow calculated is relative, not absolute
 - Haversine distance is straight-line, not road distance (~60-80% of actual route)
 - Cross-river origin-station breakdown requires NYC system data not available here
-
+- Lack of Data Regarding Weather on each particular Day during the Month
 ---
 
 **Dataset:** [Citi Bike System Data](https://citibikenyc.com/system-data) — JC-202509-citibike-tripdata.csv
