@@ -63,13 +63,7 @@ citibike-jc-analysis/
 │   ├── Q7_cross_river_analysis.csv
 │   └── Q8_deficit_stations_by_hour.csv
 │
-├── charts/
-│   ├── Chart_1_duration_distribution.png
-│   ├── Chart_2_demand_heatmap.png
-│   ├── Chart_3_hourly_member_vs_casual.png
-│   ├── Chart_4_distance_distribution.png
-│   ├── Chart_5_top_stations_outbound.png
-│   └── Chart_6_net_flow_surplus_deficit.png
+
 │
 ├── dashboard/
 │   └── CitiBike_Project_Power_BI.pbix          # Power BI dashboard
@@ -97,7 +91,6 @@ Raw CSV (116,071 rows)
     • Hour of day, day of week, day name
     • is_weekday flag
     ↓ SQL Analysis (8 queries)
-    ↓ 6 charts
     ↓ Power BI Dashboard (3 pages)
     ↓ Executive Recommendations
 ```
