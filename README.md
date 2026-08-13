@@ -34,7 +34,6 @@ This project analyses 116,055 Citi Bike trips from Jersey City (September 2025) 
 | **Python** (pandas) | Data cleaning, feature engineering|
 | **MySQL Workbench** | SQL analysis — 8 queries |
 | **Power BI** | Interactive 3-page dashboard |
-| **DAX** | Custom measures for KPI cards |
 
 ---
 
