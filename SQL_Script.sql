@@ -12,7 +12,6 @@ WITH rides_out AS (
         date,
         COUNT(*) AS outbound
     FROM trip_data
-    WHERE ride_incomplete = 0
     GROUP BY start_station_id, start_station_name, date
 ),
 
@@ -24,7 +23,6 @@ rides_in AS (
         COUNT(*) AS inbound
     FROM trip_data
     WHERE ride_incomplete = 0
-      AND cross_river_trip = 0
     GROUP BY end_station_id, end_station_name, date
 ),
 
