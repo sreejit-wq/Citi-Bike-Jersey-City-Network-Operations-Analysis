@@ -31,7 +31,7 @@ This project analyses 116,055 Citi Bike trips from Jersey City (September 2025) 
 
 | Tool | Purpose |
 |---|---|
-| **Python** (pandas, matplotlib, seaborn) | Data cleaning, feature engineering, EDA |
+| **Python** (pandas) | Data cleaning, feature engineering|
 | **MySQL Workbench** | SQL analysis — 8 queries |
 | **Power BI** | Interactive 3-page dashboard |
 | **DAX** | Custom measures for KPI cards |
@@ -63,7 +63,7 @@ citibike-jc-analysis/
 │   ├── Q7_cross_river_analysis.csv
 │   └── Q8_deficit_stations_by_hour.csv
 │
-├── eda_charts/
+├── charts/
 │   ├── Chart_1_duration_distribution.png
 │   ├── Chart_2_demand_heatmap.png
 │   ├── Chart_3_hourly_member_vs_casual.png
@@ -97,7 +97,7 @@ Raw CSV (116,071 rows)
     • Hour of day, day of week, day name
     • is_weekday flag
     ↓ SQL Analysis (8 queries)
-    ↓ Python EDA (6 charts)
+    ↓ 6 charts
     ↓ Power BI Dashboard (3 pages)
     ↓ Executive Recommendations
 ```
